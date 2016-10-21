@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android\\project\\mem\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\android\\project\\mem\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProject\\mem - 3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\AndroidStudioProject\\mem - 3\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\KCH\\AndroidStudioProjects\\mem - 3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\KCH\\AndroidStudioProjects\\mem - 3\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    }
+]

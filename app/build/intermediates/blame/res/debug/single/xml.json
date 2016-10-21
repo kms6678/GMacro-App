@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProject\\mem - 3\\app\\build\\intermediates\\res\\merged\\debug\\xml\\accessoryservices.xml",
+        "source": "D:\\AndroidStudioProject\\mem - 3\\app\\src\\main\\res\\xml\\accessoryservices.xml"
+    },
+    {
+        "merged": "D:\\android\\project\\mem\\app\\build\\intermediates\\res\\merged\\debug\\xml\\accessoryservices.xml",
+        "source": "D:\\android\\project\\mem\\app\\src\\main\\res\\xml\\accessoryservices.xml"
+    },
+    {
+        "merged": "C:\\Users\\KCH\\AndroidStudioProjects\\mem - 3\\app\\build\\intermediates\\res\\merged\\debug\\xml\\accessoryservices.xml",
+        "source": "C:\\Users\\KCH\\AndroidStudioProjects\\mem - 3\\app\\src\\main\\res\\xml\\accessoryservices.xml"
+    }
+]

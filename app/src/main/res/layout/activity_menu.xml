@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.samsung.android.sdk.accessory.example.helloaccessory.provider.MenuActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/타이틀"
+        android:background="@drawable/title2"></LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Touch Event"
+        android:id="@+id/터치버튼"
+        android:layout_below="@+id/타이틀"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Long Touch Event"
+        android:id="@+id/롱터치버튼"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/터치버튼"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Drag Event"
+        android:id="@+id/드래그버튼"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/롱터치버튼"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Insert Delay Time"
+        android:id="@+id/시간버튼"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/드래그버튼"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Insert Input Text"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:id="@+id/데이터버튼"
+        android:layout_below="@+id/시간버튼"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="H/W Event"
+        android:id="@+id/하드웨어버튼"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/데이터버튼"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Event List/Delete"
+        android:id="@+id/리스트버튼"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/하드웨어버튼"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Save Macro"
+        android:id="@+id/저장버튼"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:layout_below="@+id/리스트버튼"
+        android:layout_centerHorizontal="true"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+
+
+</RelativeLayout>

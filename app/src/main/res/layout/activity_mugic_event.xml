@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.samsung.android.sdk.accessory.example.helloaccessory.provider.HWActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/타이틀"
+        android:background="@drawable/title2"></LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Mugic Start"
+        android:id="@+id/시작버튼"
+        android:layout_below="@+id/타이틀"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Mugic End"
+        android:id="@+id/종료버튼"
+        android:layout_below="@+id/시작버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Next Mugic"
+        android:id="@+id/다음버튼"
+        android:layout_below="@+id/종료버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Mugic Restart"
+        android:id="@+id/다시버튼"
+        android:layout_below="@+id/다음버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Mugic Stop"
+        android:id="@+id/일시정지버튼"
+        android:layout_below="@+id/다시버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+</RelativeLayout>

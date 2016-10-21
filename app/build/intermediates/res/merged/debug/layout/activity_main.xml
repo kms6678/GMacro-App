@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="${relativePackage}.${activityClass}" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/타이틀"
+        android:background="@drawable/title2"></LinearLayout>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Insert G-Macro"
+        android:id="@+id/추가버튼"
+        android:layout_below="@+id/타이틀"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+    
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="G-Macro List/Del"
+        android:id="@+id/확인버튼"
+        android:layout_below="@+id/추가버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="G-Macro Rotary Set"
+        android:id="@+id/즐겨찾기버튼"
+        android:layout_below="@+id/확인버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Notification Check"
+        android:id="@+id/노티피버튼"
+        android:layout_below="@+id/즐겨찾기버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Exit"
+        android:id="@+id/종료버튼"
+        android:layout_below="@+id/노티피버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

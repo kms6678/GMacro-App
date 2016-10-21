@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.samsung.android.sdk.accessory.example.helloaccessory.provider.HWActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/타이틀"
+        android:background="@drawable/title2"></LinearLayout>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Screen Shot Event"
+        android:id="@+id/스크린샷버튼"
+        android:layout_below="@+id/타이틀"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Insert Home Key Event"
+        android:id="@+id/홈버튼"
+        android:layout_below="@+id/스크린샷버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Insert Back Key Event"
+        android:id="@+id/백버튼"
+        android:layout_below="@+id/홈버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Insert Power Key Event"
+        android:id="@+id/전원버튼"
+        android:layout_below="@+id/백버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Insert Volume Up Event"
+        android:id="@+id/볼륨업"
+        android:layout_below="@+id/전원버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Insert Volume Down Event"
+        android:id="@+id/볼륨다운"
+        android:layout_below="@+id/볼륨업"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Mugic Event"
+        android:id="@+id/뮤직버튼"
+        android:layout_below="@+id/볼륨다운"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Process Event"
+        android:id="@+id/프로세스버튼"
+        android:layout_below="@+id/뮤직버튼"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffffff" />
+</RelativeLayout>

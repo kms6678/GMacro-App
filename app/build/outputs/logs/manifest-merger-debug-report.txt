@@ -1,0 +1,203 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:2:1-85:12
+	package
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:3:5-80
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:5:5-32
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\KCH\AndroidStudioProjects\mem - 3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#com.samsung.accessory.permission.ACCESSORY_FRAMEWORK
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:13:5-92
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:13:22-89
+uses-permission#com.samsung.android.providers.context.permission.WRITE_USE_APP_FEATURE_SURVEY
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:14:5-117
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:14:22-114
+uses-permission#com.samsung.WATCH_APP_TYPE.Companion
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:15:22-73
+uses-permission#com.samsung.wmanager.ENABLE_NOTIFICATION
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:18:22-72
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:20:5-89
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:20:30-86
+android:uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:21:5-83
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:21:30-80
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:22:5-88
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:22:30-85
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:24:5-84
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:24:22-81
+uses-permission#android.permission.GET_TASKS
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:25:22-65
+application
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:27:5-83:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\KCH\AndroidStudioProjects\mem - 3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:32:9-41
+	android:excludeFromRecents
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:30:9-42
+	android:allowBackup
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:29:9-35
+	android:icon
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:31:9-38
+	android:theme
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:33:9-67
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:28:9-34
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.MainActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:34:9-42:20
+	android:label
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:35:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:37:13-41:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:40:27-74
+service#com.samsung.android.sdk.accessory.example.helloaccessory.provider.ProviderService
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:44:9-52
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:44:18-49
+service#com.samsung.android.sdk.accessory.example.helloaccessory.provider.NotificationListenerService
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:45:9-51:19
+	android:permission
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:47:13-87
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:46:13-56
+intent-filter#android.service.notification.NotificationListenerService
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:48:13-50:29
+action#android.service.notification.NotificationListenerService
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:49:17-99
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:49:25-96
+receiver#com.samsung.android.sdk.accessory.RegisterUponInstallReceiver
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:53:9-57:20
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:53:19-95
+intent-filter#com.samsung.accessory.action.REGISTER_AGENT
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:54:13-56:29
+action#com.samsung.accessory.action.REGISTER_AGENT
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:55:17-86
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:55:25-83
+receiver#com.samsung.android.sdk.accessory.ServiceConnectionIndicationBroadcastReceiver
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:58:9-62:20
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:58:19-112
+intent-filter#com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:59:13-61:29
+action#com.samsung.accessory.action.SERVICE_CONNECTION_REQUESTED
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:60:17-100
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:60:25-97
+meta-data#AccessoryServicesLocation
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:64:9-66:62
+	android:value
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:66:13-59
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:65:13-53
+meta-data#GearAppType
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:67:9-69:35
+	android:value
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:69:13-32
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:68:13-39
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.EventListActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:71:9-55
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:71:19-52
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.LongTouchEventActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:72:9-60
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:72:19-57
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.TouchActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:73:9-51
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:73:19-48
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.MenuActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:74:9-50
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:74:19-47
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.MacroListActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:75:9-55
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:75:19-52
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.DragEventActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:76:9-55
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:76:19-52
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.HWActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:77:9-48
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:77:19-45
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.SplashActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:78:9-52
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:78:19-49
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.MugicEventActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:79:9-56
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:79:19-53
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.RotaryActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:80:9-52
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:80:19-49
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.CurveDragActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:81:9-55
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:81:19-52
+activity#com.samsung.android.sdk.accessory.example.helloaccessory.provider.ShowProcessListActivity
+ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:82:9-61
+	android:name
+		ADDED from C:\Users\KCH\AndroidStudioProjects\mem - 3\app\src\main\AndroidManifest.xml:82:19-58
